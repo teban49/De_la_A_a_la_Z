@@ -8,6 +8,7 @@ public class crucigrama {
 	private int lives;
 	public entrada tec=new entrada();
 	private String respuesta;
+	graficos frame = new graficos();
 	
 	public crucigrama(){}
 	
@@ -16,8 +17,7 @@ public class crucigrama {
 		lives=5;
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
-				try {
-					graficos frame = new graficos();
+				try {		
 					frame.setVisible(true);
 				} catch (Exception e) {
 					e.printStackTrace();
@@ -101,6 +101,7 @@ public class crucigrama {
 			System.out.println("        ⧠  ");
 			System.out.println("        ⧠  ");
 			System.out.println("        ⧠  ");
+			frame.segundaImagen();
 			System.out.println("2. Que poligono tiene cinco lados?");
 			respuesta=tec.leer();
 			if(respuesta.equals("pentagono")){
