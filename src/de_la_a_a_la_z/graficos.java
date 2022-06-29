@@ -45,6 +45,22 @@ public class graficos extends JFrame {
 	private JTable table_26;
 	private JTable table_27;
 	private JLabel lblNewLabel_18;
+	private JLabel lblNewLabel_6;
+	private JLabel lblNewLabel_5;
+	private JLabel lblNewLabel_19;
+	private JLabel lblNewLabel_7;
+	private JLabel lblNewLabel_8;
+	private JLabel lblNewLabel_9;
+	private JLabel lblNewLabel_4;
+	private JLabel lblNewLabel_10;
+	private JLabel lblNewLabel_20;
+	private JLabel lblNewLabel_11;
+	private JLabel lblNewLabel_12;
+	private JLabel lblNewLabel_13;
+	private JLabel lblNewLabel_14;
+	private JLabel lblNewLabel_15;
+	private JLabel lblNewLabel_16;
+	private JLabel lblNewLabel_17;
 
 	public graficos() {
 		
@@ -55,59 +71,67 @@ public class graficos extends JFrame {
 		setContentPane(contentPane);
 		contentPane.setLayout(null);
 		
-		lblNewLabel_18 = new JLabel("  s");
+		lblNewLabel_20 = new JLabel("  ");
+		lblNewLabel_20.setBounds(160, 100, 20, 20);
+		contentPane.add(lblNewLabel_20);
+		
+		lblNewLabel_19 = new JLabel("  ");
+		lblNewLabel_19.setBounds(60, 100, 20, 20);
+		contentPane.add(lblNewLabel_19);
+		
+		lblNewLabel_5 = new JLabel("  ");
+		lblNewLabel_5.setBounds(60, 60, 20, 20);
+		contentPane.add(lblNewLabel_5);
+		
+		lblNewLabel_18 = new JLabel("  ");
 		lblNewLabel_18.setBounds(60, 40, 20, 20);
 		contentPane.add(lblNewLabel_18);
 		
-		JLabel lblNewLabel_17 = new JLabel("  t");
-		lblNewLabel_17.setBounds(160, 220, 20, 20);
-		contentPane.add(lblNewLabel_17);
-		
-		JLabel lblNewLabel_16 = new JLabel("  t");
+		lblNewLabel_16 = new JLabel("  ");
 		lblNewLabel_16.setBounds(160, 220, 20, 20);
 		contentPane.add(lblNewLabel_16);
 		
-		JLabel lblNewLabel_15 = new JLabel("  s");
+		lblNewLabel_15 = new JLabel("  ");
 		lblNewLabel_15.setBounds(160, 200, 20, 20);
 		contentPane.add(lblNewLabel_15);
 		
-		JLabel lblNewLabel_14 = new JLabel("  e");
+		lblNewLabel_14 = new JLabel("  ");
 		lblNewLabel_14.setBounds(160, 180, 20, 20);
 		contentPane.add(lblNewLabel_14);
 		
-		JLabel lblNewLabel_13 = new JLabel("  r");
+		lblNewLabel_13 = new JLabel("  ");
 		lblNewLabel_13.setBounds(160, 160, 20, 20);
 		contentPane.add(lblNewLabel_13);
 		
-		JLabel lblNewLabel_12 = new JLabel("  e");
+		lblNewLabel_12 = new JLabel("  ");
 		lblNewLabel_12.setBounds(160, 140, 20, 20);
 		contentPane.add(lblNewLabel_12);
 		
-		JLabel lblNewLabel_11 = new JLabel("  v");
+		lblNewLabel_11 = new JLabel("  ");
 		lblNewLabel_11.setBounds(160, 120, 20, 20);
 		contentPane.add(lblNewLabel_11);
 		
-		JLabel lblNewLabel_10 = new JLabel("  e   s   c   a    l    e   n   o");
+		lblNewLabel_10 = new JLabel("  ");
 		lblNewLabel_10.setBounds(60, 100, 160, 20);
 		contentPane.add(lblNewLabel_10);
 		
-		JLabel lblNewLabel_9 = new JLabel("  a");
+		lblNewLabel_9 = new JLabel("  ");
 		lblNewLabel_9.setBounds(60, 160, 20, 20);
 		contentPane.add(lblNewLabel_9);
 		
-		JLabel lblNewLabel_8 = new JLabel("  t");
+		lblNewLabel_8 = new JLabel("  ");
 		lblNewLabel_8.setBounds(60, 140, 20, 20);
 		contentPane.add(lblNewLabel_8);
 		
-		JLabel lblNewLabel_7 = new JLabel("  n");
+		lblNewLabel_7 = new JLabel("  ");
 		lblNewLabel_7.setBounds(60, 120, 20, 20);
 		contentPane.add(lblNewLabel_7);
 		
-		JLabel lblNewLabel_6 = new JLabel("  s");
+		lblNewLabel_6 = new JLabel("  ");
 		lblNewLabel_6.setBounds(60, 80, 20, 20);
 		contentPane.add(lblNewLabel_6);
 		
-		JLabel lblNewLabel_4 = new JLabel(" p    e   n   t   a    g   o   n   o");
+		lblNewLabel_4 = new JLabel(" ");
 		lblNewLabel_4.setBounds(40, 60, 180, 20);
 		contentPane.add(lblNewLabel_4);
 		
@@ -268,19 +292,33 @@ public class graficos extends JFrame {
 		contentPane.add(lblNewLabel_3);
 	}
 	
-	public void segundaImagen(){
-		//ImageIcon imagenDos=new ImageIcon("0.jpg");
-		//lblNewLabel.setIcon(imagen);
+	public void primeraImagen(){
 		lblNewLabel_18.setText(" s");
+		lblNewLabel_5.setText(" e");
+		lblNewLabel_6.setText(" s");
+		lblNewLabel_19.setText(" e");
+		lblNewLabel_7.setText(" n");
+		lblNewLabel_8.setText(" t");
+		lblNewLabel_9.setText(" a");
+	}
+	
+	public void segundaImagen(){
+		lblNewLabel_4.setText("  p   e   n   t   a    g    o   n  o");
+		lblNewLabel_5.setText(" ");
+		lblNewLabel_19.setText(" e");
 	}
 	
 	public void terceraImagen(){
-		//ImageIcon imagenTres=new ImageIcon("0.jpg");
-		//lblNewLabel.setIcon(imagen);
+		lblNewLabel_10.setText(" e   s   c   a    l    e   n   o");
+		lblNewLabel_20.setText("");	
 	}
 	
 	public void cuartaImagen(){
-		//ImageIcon imagenCuatro=new ImageIcon("0.jpg");
-		//lblNewLabel.setIcon(imagen);
+		lblNewLabel_11.setText(" v");
+		lblNewLabel_12.setText(" e");
+		lblNewLabel_13.setText(" r");
+		lblNewLabel_14.setText(" e");
+		lblNewLabel_15.setText(" s");
+		lblNewLabel_16.setText(" t");
 	}
 }

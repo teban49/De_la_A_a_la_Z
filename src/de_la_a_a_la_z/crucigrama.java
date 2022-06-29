@@ -1,6 +1,7 @@
 package de_la_a_a_la_z;
 
 import java.awt.EventQueue;
+import java.util.concurrent.TimeUnit;
 
 public class crucigrama {
 	
@@ -51,9 +52,9 @@ public class crucigrama {
 		System.out.println("       e  ");
 		System.out.println("       s  ");
 		System.out.println("       t  ");
+		frame.cuartaImagen();
 		System.out.println("/n");
 		System.out.println("Ganaste!!!");
-		System.exit(0);
 	}
 	
 	public void perdiste(){
@@ -101,7 +102,7 @@ public class crucigrama {
 			System.out.println("        ⧠  ");
 			System.out.println("        ⧠  ");
 			System.out.println("        ⧠  ");
-			frame.segundaImagen();
+			frame.primeraImagen();
 			System.out.println("2. Que poligono tiene cinco lados?");
 			respuesta=tec.leer();
 			if(respuesta.equals("pentagono")){
@@ -128,6 +129,7 @@ public class crucigrama {
 			System.out.println("        ⧠  ");
 			System.out.println("        ⧠  ");
 			System.out.println("        ⧠  ");
+			frame.segundaImagen();
 			System.out.println("3. Cual es el triangulo de tres lados desiguales?");
 			respuesta=tec.leer();
 			if(respuesta.equals("escaleno")){
@@ -154,6 +156,7 @@ public class crucigrama {
 			System.out.println("       ⧠  ");
 			System.out.println("       ⧠  ");
 			System.out.println("       ⧠  ");
+			frame.terceraImagen();
 			System.out.println("4. Cual es el monte mas alto del mundo?");
 			respuesta=tec.leer();
 			if(respuesta.equals("everest")){
