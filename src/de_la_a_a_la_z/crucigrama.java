@@ -1,7 +1,6 @@
 package de_la_a_a_la_z;
 
 import java.awt.EventQueue;
-import java.util.concurrent.TimeUnit;
 
 public class crucigrama {
 	
@@ -55,6 +54,7 @@ public class crucigrama {
 		frame.cuartaImagen();
 		System.out.println("/n");
 		System.out.println("Ganaste!!!");
+		System.exit(0);
 	}
 	
 	public void perdiste(){
